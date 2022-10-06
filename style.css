@@ -10,10 +10,19 @@ body{
 /* image for headers */
 header{
     background-image: url(" https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
-    color: white
+    color: white;
+    border-radius: 0.75em;
+    padding: 4px;
+    box-shadow: 2px 2px blue;
+    text-shadow: 3px 3px 2px pink;
+    
 }
 article{
     background-color: rgb(black, cyan, white);
+    border-radius: 0.75em;
+    padding: 4px;
+    box-shadow: 2px 2px blue;
+    
 }
 h1 h3{
 font-family: Geneva;
@@ -22,4 +31,16 @@ font-family: Geneva;
 a{
     color: lightseagreen;
     text-decoration: none
+}
+img{ 
+    display: block;
+    height: 20%;
+    border:lightseagreen;
+    border-radius: 0.75em;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px blue;
+    
+}
+.subheading{
+    border-bottom: solid 4px pink;
 }
